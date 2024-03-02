@@ -1,0 +1,8 @@
+version: '3'
+services:
+  virtuoso-home:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 80:8890
