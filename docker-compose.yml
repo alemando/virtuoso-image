@@ -1,0 +1,38 @@
+version: '3'
+services:
+  virtuoso-e0:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8890:8890
+  virtuoso-e1:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8891:8890
+  virtuoso-e2:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8892:8890
+  virtuoso-e3:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8893:8890
+  virtuoso-e4:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8894:8890
+  virtuoso-e5:
+    image: openlink/virtuoso-opensource-7:latest
+    environment:
+      DBA_PASSWORD: "dba"
+    ports:
+      - 8895:8890
