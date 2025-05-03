@@ -1,4 +1,3 @@
-version: '3'
 services:
   virtuoso-e0:
     image: openlink/virtuoso-opensource-7:latest
